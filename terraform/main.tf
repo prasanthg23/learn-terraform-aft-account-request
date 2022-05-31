@@ -2,12 +2,12 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "psanthg+aftnewaccnt@amazon.com"
-    AccountName               = "Aftnew-accnt"
-    ManagedOrganizationalUnit = "AFT"
-    SSOUserEmail              = "psanthg+aftnewaccnt@amazon.com"
-    SSOUserFirstName          = "aftnew"
-    SSOUserLastName           = "account"
+    AccountEmail              = "psanthg+orgnestedaccnt@amazon.com"
+    AccountName               = "Aftorg-accnt"
+    ManagedOrganizationalUnit = "Nested OU"
+    SSOUserEmail              = "psanthg+orgnestedaccnt@amazon.com"
+    SSOUserFirstName          = "aftorg"
+    SSOUserLastName           = "account1"
   }
 
   account_tags = {
@@ -23,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Aftnew-accnt"
+  account_customizations_name = "Aftorg-accnt"
 }

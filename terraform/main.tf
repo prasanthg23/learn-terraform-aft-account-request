@@ -6,8 +6,8 @@ module "sandbox" {
     AccountName               = "Aftorg2-accnt"
     ManagedOrganizationalUnit = "Nested OU"
     SSOUserEmail              = "psanthg+orgnestedaccnt2@amazon.com"
-    SSOUserFirstName          = "aftorg2"
-    SSOUserLastName           = "account2"
+    SSOUserFirstName          = "aftorg3"
+    SSOUserLastName           = "account3"
   }
 
   account_tags = {

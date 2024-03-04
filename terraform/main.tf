@@ -6,7 +6,7 @@ module "sandbox" {
     AccountName               = "Aftorg2-accnt"
     ManagedOrganizationalUnit = "Developers"
     SSOUserEmail              = "psanthg+orgafttest@amazon.com"
-    SSOUserFirstName          = "aftorg3"
+    SSOUserFirstName          = "aftorg4"
     SSOUserLastName           = "account3"
   }
 
